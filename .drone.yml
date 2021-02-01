@@ -1,5 +1,5 @@
 kind: pipeline
-name: triton
+name: Kaze風
 
 clone:
         depth: 1
@@ -13,6 +13,6 @@ steps:
             CID:
                     from_secret: cid
     commands:
-      - wget https://raw.githubusercontent.com/Thagoo/triton-scripts/ts/rova/11/compiler.sh
+      - wget https://raw.githubusercontent.com/anggialansori404/triton-scripts/kaze/compiler.sh
       - chmod +x compiler.sh
       - bash compiler.sh
