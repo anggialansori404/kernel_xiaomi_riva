@@ -2732,10 +2732,6 @@ int test_clear_page_writeback(struct page *page)
 	} else {
 		ret = TestClearPageWriteback(page);
 	}
-<<<<<<< HEAD
-
-=======
->>>>>>> b16bd72cbdefcbbca90782e6c60eececba176937
 	/*
 	 * NOTE: Page might be free now! Writeback doesn't hold a page
 	 * reference on its own, it relies on truncation to wait for
